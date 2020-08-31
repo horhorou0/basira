@@ -2,174 +2,203 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
-      rel="stylesheet"
-    />
-
-    <script src="https://use.fontawesome.com/c4f9d7e290.js"></script>
-    <link rel="icon" type="image/png" href="./src/img/favicon.png" />
     <title>BASIRA</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <link href="./assets/img/favicon.png" rel="icon" />
+
+    <link
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link
+      href="./assets/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
-  <body class="bg-light">
-    <section class="main_banner">
-      <div class="container-fluid pt-3">
-        <div class="header text-center">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-              <a class="hover" href="./index.html"
-                ><img src="./src/img/logo.png" /></a
-            ></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div
-              class="collapse navbar-collapse ml-5"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="./index.html"
-                    >Accueil <span class="sr-only">(current)</span>&nbsp;<i
-                      class="fa fa-home"
-                    ></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./changelog.html"
-                    >Mise à jour &nbsp;
-                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="./form.html"
-                    >Newsletter &nbsp;
-                    <i class="fa fa-envelope-square" aria-hidden="true"></i
-                  ></a>
-                </li> -->
-              </ul>
-            </div>
-          </nav>
-        </div>
+  <body>
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto"><a href="index.html">BASIRA</a></h1>
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html"><i class="ri-home-heart-line"></i> Accueil </a></li>
+            <li><a href="#about"><i class="ri-question-mark"></i> A propos</a></li>
+            <li><a href="#"><i class="ri-settings-2-line"></i> Devlog(WIP)</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="main_block mt-5">
+    <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-sm-">
-            <div class="card bg-dark">
-              <div class="card-body text-white min-vh-100">
-                <h3><span class="header">BASIRA, c'est quoi ?</span>?</h3>
-                <small class="text-justify"
-                  ><span class="header"
-                    >BASIRA est un jeu de plateforme 2D avec des graphismes en
-                    pixel-art ! Développé grâce au Godot Engine, je développe ce
-                    jeu pour le présenter face à un jury lors d'un examen pour
-                    mon diplôme de développeur.</span
-                  ></small
-                >
-                <hr class="mt-5" />
-                <blockquote class="alert alert-light text-dark mt-5">
-                  <p class="mb-0">
-                    Pourquoi développer un jeu vidéo
-                    <span class="badge badge-secondary bg-success">?</span>
-                  </p>
-                </blockquote>
-                <small class="text-justify"
-                  >En réalité, j'ai toujours été fasciné par la création de jeux
-                  vidéos depuis mon enfance. Mes journées à jouer aux jeux
-                  vidéos(ainsi que mes nuits) m'ont donné envie de passer de
-                  l'autre côté de l'écran et de créer à mon tour mon propre
-                  univers qui m'appartient.</small
-                >
-                <blockquote class="alert alert-light text-dark mt-5">
-                  <p class="mb-0">
-                    Pourquoi ce site internet
-                    <span class="badge badge-secondary bg-success">?</span> Et
-                    où est-ce que l'on peut tester
-                    <span class="header">BASIRA?</span>
-                    <span class="badge badge-secondary bg-success">?</span>
-                  </p>
-                </blockquote>
-                <small class="text-justify"
-                  >Ce site est fait pour vous partagez mes avancées sur le
-                  projet, ainsi que de mettre régulièrement à jour le jeu de
-                  façon organisé. Pour moi c'est un support qui me permettra de
-                  m'organiser et de vous dévoiler quelques vidéos et photos du
-                  gameplay ainsi que quelques conseils techniques en fonction
-                  des leçons que je vais pouvoir en tirer. En ce qui concerne le
-                  jeu, vous l'aurez compris le jeu est en cours de développement
-                  et dès qu'une version sera jouable j'envisagerai d'ajouter une
-                  section de téléchargement sur ce site afin d'avoir vos
-                  retours.</small
-                >
-              </div>
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h1>Un RPG 2D d'aventure en pixel art !</h1>
+            <h2>avec le moteur GODOT ENGINE</h2>
+            <div class="d-lg-flex">
+              <a href="#about" class="btn-get-started scrollto"
+                >En savoir plus</a
+              >
             </div>
           </div>
-          <div class="col-lg-6 col-sm-">
-            <div class="card bg-dark min-vh-100">
-              <div class="card-body header">
-                <img style="width:100%"src="./src/img/gameplay.png"" />
-                <hr />
-                <div class="alert alert-dark">
-                  <h2 class="text-center">Fonctionnalités</h2>
-                </div>
-                <div class="alert alert-info">
-                  <h2 class="text-center">
-                    Des quêtes!
-                  </h2>
-                </div>
-                <div class="alert alert-info">
-                  <h2 class="text-center">Une campagne solo!</h2>
-                </div>
-                <div class="alert alert-info">
-                  <h2 class="text-center">Open-world</h2>
-                </div>
-              </div>
-            </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="./assets/img/gameplay.png"
+              class="img-fluid animated"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    <main id="main">
+      <section id="cliens" class="cliens section-bg">
+        <div class="container">
+          <div class="row" data-aos="zoom-in">
+            <div
+              class="col-lg-6 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <a href="https://godotengine.org/">
+                <img
+                  src="./assets/img/clients/godot_engine.png"
+                  class="img-fluid"
+                  alt=""
+              /></a>
+            </div>
 
-    <script src="https://use.fontawesome.com/c4f9d7e290.js"></script>
+            <div
+              class="col-lg-6 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/img/clients/itchio.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>A propos</h2>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                BASIRA est un jeu indépendant 2D de type RPG/Aventure développé avec le moteur Godot Engine.
+              </p>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> BASIRA est mon premier jeu sur lequel je m'implique autant.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Je veux faire de ce jeu un jeu dans lequel le joueur est libre d'explorer le monde dans lequel il évolue.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Le joueur sera libre d'explorer le monde, mais aussi de participer à la construction de celui-ci ainsi que d'aider ses habitants.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 text-justify">
+              <p>
+                Ce jeu est développé dans le cadre d'un projet personnel pendant ma formation professionnelle de développeur.
+                Mais avant tout, c'est un projet qui me tient à coeur, car depuis mes premières années sur internet je rêve de pouvoir développer mon propre jeu vidéo.
+                Aujourd'hui la chance se présente, et j'espère aller au bout de ce périple.
+              </p>
+              <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>FAQ</h2>
+            <p>
+              Dans cette section, je répondrais à vos questions que vous pouvez m'envoyez par mail directement! Mais pour l'instant vous pouvez y trouvez quelques réponses aux questions les plus demandées.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a data-toggle="collapse" class="collapse" href="#faq-list-1"
+                  >Une version de démo est disponible?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-parent=".faq-list"
+                >
+                  <p>
+                    Actuellement non, le jeu est à peine en développement depuis un mois maintenant (9/08/2020). Et je commence tout juste à déployer mon personnage et mes idées sur une première carte.
+                    J'espère vraiment vous proposez une version de test dès que possible! Ainsi, je pourrais avoir vos retours !
+                  </p>
+                </div>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+    <footer id="footer">
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BASIRA</span></strong
+          >.
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <div id="preloader"></div>
+
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="./assets/vendor/php-email-form/validate.js"></script>
+    <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./assets/vendor/venobox/venobox.min.js"></script>
+    <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="./assets/vendor/aos/aos.js"></script>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
