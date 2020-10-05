@@ -320,15 +320,16 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fddb3a;
+  color: #bda429;
   padding: 10px 20px;
-  font-weight: 500;
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 1rem;
   margin: 5rem 0;
   outline: none;
 }
@@ -659,7 +660,7 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #fddb3a;
+  color: #a7922d;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
